@@ -1,0 +1,195 @@
+img.logo {
+    width: 250px;
+    height: 250px;
+}
+img.court {
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    }
+img.court:hover {
+  cursor: pointer;
+  /*opacity: 80%; */
+
+}
+.flexContainer {
+  display:flex;
+  
+}
+.flexContainer > img {
+flex:1;
+}
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+td {
+    padding: 10px;
+}
+p {
+    line-height: 21px;
+    font-weight: bold;
+    margin: 3% 25% 1% 25%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0 25% 0 25%;
+    list-style-type: none;
+}
+li {
+    padding: 5px 0;
+}
+#tennislogo {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 10%;
+    margin: 20px 100px 20px 0;
+}
+h1 {
+    color: #015120;
+    font-size: 4vw;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 20px;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+h2 {
+    color: #008800;
+    font-size: 2em;
+    margin-top: 0;
+}
+#first_sep {
+    margin-top: 20px;
+    
+}
+div.vako h2{
+    padding: 70px;
+    background: #ffffff url("vakologo.png") no-repeat right;
+}
+div.lover h2{
+    padding: 20px;
+    background: #ffffff url("loverlogo.png") no-repeat right;
+}
+#lover {
+    margin-top: 20px;
+}
+div.szieszta h2{
+    padding: 70px;
+    background: #ffffff url("hotelsziesztalogo.png") no-repeat right;
+}
+div.svse h2{
+    padding: 70px;
+    background: #ffffff url("svselogo.jpeg") no-repeat right;
+}
+div.sopron {
+    margin: 15px 0;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid 10px black;
+}
+h3 {
+    color: #fc6500;
+    font-size: 1.25em;
+}
+.cim {
+    color: black;
+}
+h3.elerhetosegek {
+    display: block;
+    padding: 20px 10px;
+}
+.separator {
+    padding: 10px 0;
+    margin: 50px 0 0 0;
+    background-color: #000099;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 60%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
